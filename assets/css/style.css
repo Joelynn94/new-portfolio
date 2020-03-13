@@ -123,12 +123,13 @@ PAGE BODY
 .page-body_inner {
   padding: 3rem;
   text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .page-body_contact {
   margin-top: 1rem;
 }
-
 
 
 .page-body_title {
@@ -223,6 +224,6 @@ PORTFOLIO
 }
 
 .portfolio_item {
-  max-width: 20rem;
+  max-width: 19rem;
   margin: 0 auto;
 }
