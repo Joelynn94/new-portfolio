@@ -5,8 +5,8 @@ GENERAL
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
+  /* padding-left: 1.5em;
+  padding-right: 1.5em; */
 }
 
 .span_color {
@@ -24,11 +24,11 @@ body {
 
 p {
   line-height: 1.2;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 li {
-  font-size: 15px;
+  font-size: 12px;
 }
 
 /***************************
@@ -86,22 +86,26 @@ PAGE HEADER
 
 .page-header_title {
   margin-top: 20px;
-  font-size: 44px;
+  font-size: 30px;
+  /* font-size: 44px; */
   line-height: 1.2em;
   color: #fff;
 }
 
 .page-header_subtitle {
   margin-top: 8px;
-  font-size: 18px;
+  font-size: 15px;
+  /* font-size: 18px; */
   color: #fff;
   margin-bottom: 1rem;
 }
 
 .page-header_social-links > a {
   display: inline-block;
-  width: 36px;
-  height: 36px;
+  width: 30px;
+  height: 30px;
+  /* width: 36px;
+  height: 36px; */
   border-radius: 24px;
   background-color:#fff;
   margin: 0 1px;
@@ -109,8 +113,10 @@ PAGE HEADER
 }
 
 .page-header_social-links > a > i {
-  line-height: 36px;
-  font-size: 26px;
+  line-height: 30px;
+  font-size: 20px;
+  /* line-height: 36px;
+  font-size: 26px; */
 }
 
 /***************************
@@ -121,7 +127,8 @@ PAGE BODY
 }
 
 .page-body_inner {
-  padding: 3rem;
+  padding: 1rem;
+  /* padding: 3rem; */
   text-align: left;
   display: grid;
   grid-template-columns: 1fr;
@@ -131,10 +138,10 @@ PAGE BODY
   margin-top: 1rem;
 }
 
-
 .page-body_title {
   margin-bottom: 1rem;
-  font-size: 22px;
+  font-size: 14px;
+  /* font-size: 22px; */
 }
 
 .page-body_contact > ul > li {
@@ -160,13 +167,15 @@ PAGE BODY
 .email_contact {
   display: inline-block;
   min-width: 60px;
-  font-size: 14px;
+  font-size: 12px;
+  /* font-size: 14px; */
 }
 
 .phone_contact {
   display: inline-block;
   min-width: 60px;
-  font-size: 14px;
+  font-size: 12px;
+  /* font-size: 14px; */
 }
 
 
@@ -209,7 +218,8 @@ PORTFOLIO
 .portfolio_title {
   text-transform: uppercase;
   color:#ffffff;
-  font-size: 44px;
+  font-size: 26px;
+  /* font-size: 44px; */
   font-weight: 700;
   font-style: normal;
   text-align: center;
@@ -226,4 +236,44 @@ PORTFOLIO
 .portfolio_item {
   max-width: 19rem;
   margin: 0 auto;
+}
+
+.portfolio_img {
+  display: block;
+  height: 15rem;
+  width: 13rem;
+}
+
+.portfolio_img-container {
+  height: 10rem;
+}
+
+.portfolio_item-info {
+  margin-top: 0;
+  background: blue;
+  width: 100%;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.portfolio-btn {
+  cursor: pointer;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-weight: 500;
+  line-height: 1.8;
+  padding: 0 1rem;
+  outline: none;
+  border: 0;
+  border-radius: 3px;
+  background-color: #fff;
+  color: #212121;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1),0 4px 8px rgba(0,0,0,.3);
+  width: 50%;
 }
