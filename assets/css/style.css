@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #92B8D1
+}
+
 img {
     width: 100%;
 }
@@ -26,7 +30,7 @@ BUTTONS
 ***************************/
 .btn {
     color:white;
-    padding: 20px 20px;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
     opacity: 0.8;
@@ -49,6 +53,32 @@ BUTTONS
 
 .btn-secondary {
     background-color: #737894;
+}
+
+.btn-submit {
+    width: 50%;
+    border-radius: 5px;  
+    text-transform: uppercase;
+}
+
+.btn-resume {
+    opacity: 0.8;
+    cursor: pointer;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 2.8;
+    padding: 0 1rem;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    background-color:#fff;
+    color:#212121;
+    box-shadow: 0 2px 4px rgba(0,0,0,.1),0 4px 8px rgba(0,0,0,.3);
+}
+
+.btn-resume:hover {
+    opacity: 1;
 }
 
 /***************************
@@ -169,6 +199,12 @@ INFO CONNECT
 .fa-envelope,
 .fa-phone-square-alt {
     line-height: 36px;
+}
+
+.info-phone,
+.info-email {
+    display: inline-block;
+    min-width: 60px;
 }
 
 /***************************
