@@ -166,6 +166,10 @@ INFO CONNECT
     margin-bottom: 1rem;
 }
 
+.info-connect_heading > li {
+    margin-top: .5rem;
+}
+
 .info-connect_social {
     margin-top: 1rem;
 }
